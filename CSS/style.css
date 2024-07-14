@@ -1,0 +1,162 @@
+body{
+    background-color: #00101f;
+    color: #e2e8f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    width: 80%;
+    height: 10vh ;
+    display:flex
+    margin: auto;
+    padding: 15px,0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar a {
+    text-decoration: none;
+    color: #e5c7575d;
+    font-weight: 700;
+    font-size: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.navbar ul li a{
+    text-transform: uppercase;
+}
+span{
+    color: #dc5a5a;
+}
+.container{
+    width: 150%;
+    margin: 0 100px;
+
+}
+.line{
+    display:flex;
+}
+.img1{
+    display: flex;
+    max-width: 500px;
+    margin-inline: 10px;
+}
+.img2{
+    display: flex;
+    max-width: 500px;
+    margin-inline: 10px;
+}
+.line p{
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+}
+h1{
+    font-size: 50px;
+}
+span,
+h2{
+    color: #dc5a5a;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    color:#ff0b56;
+}
+p{
+    font-size: 14px;
+    color:black
+}
+
+p{
+    width: 100%;
+    color:#e2e8f0;
+    text-align: justify;
+}
+
+img{
+    height: auto;
+    max-width: 120%;
+    margin: 100px ;
+    display: flex;
+    border-width: 20px;
+    border-radius: 15px ;
+}
+img:hover{
+    filter: brightness(80%)
+}
+input,textarea{
+    padding: 10px;
+    width: 260px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    background-color: #2b2b2b;
+}
+input:focus,
+textarea:focus{
+    outline: none;
+}
+
+.map{
+    margin-top: 80px;
+}
+ 
+.img-top{
+    display:inline-flex;
+    border-radius: 40%;
+    width: 500px;
+    margin-top: 65%;
+    
+}
+
+button{
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    color: rgb(247, 243, 243);
+    border: 1px solid tomato;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: #dc5a5a;
+    font-weight: bold;
+}
+@media (min-width:576px){
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width:992px){
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px){
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width:576px){
+    .container {
+        max-width: 540px;
+    }
+}
+footer{
+    background-color: rgba(26, 32, 44, 1);
+    margin: 0;
+}
+footer p{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
